@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.carrusel {
+	width: 50%;
+}
+
+.conteItemsCarrusel{
+	height: 600px;
+	width: 600px;
+	overflow: hidden;
+}
+
+.itemCarrusel{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.itemCarruselArrows {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	color: black;
+}
+
+.itemCarruselTarjeta {
+	height: 100%;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
